@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Default Light Theme */
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --card-background: #f0f0f0;
+  --logo-filter: none;
+  --btn-color:#181818;
+}
+
+/* Dark Theme */
+[class='dark'] {
+--backgound-color: #181818 ;
+--btn-color: #ffffff;
+--text-color: #ffffff;
+--card-background: #333333;
+--logo-filter: drop-shadow(0 0 2cm #646cffaa);
+}
