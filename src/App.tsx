@@ -49,7 +49,7 @@ const App: React.FC = () => {
 
   return (
     <UserProvider>
-      <div className="dark:bg-[#181818] bg-white">
+      <div className="bg-white dark:bg-[#181818]">
         <div className='flex justify-center items-center flex-col text-center dark:text-white text-[#181818]'>
         <Sidebar />
         <Header title="Newton Academy" />
